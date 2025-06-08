@@ -1,0 +1,33 @@
+/* Step 1: Make body a flex container in column direction */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Take up full viewport height */
+  margin: 0;
+}
+
+/* Step 2: Make main a flex container in row direction */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto; /* Fills available space in the body */
+}
+
+/* Step 3: Control article and aside widths (2/3 and 1/3) */
+article {
+  flex: 2;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+/* Optional: make header and footer stand out */
+header, footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
