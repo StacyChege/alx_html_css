@@ -31,3 +31,38 @@ header, footer {
   background-color: #f0f0f0;
   padding: 10px;
 }
+
+article {
+  background-color: #f0f8ff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  color: #333;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+}
+
+body {
+  background-color: #fff8f0;
+  color: #222;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+  background-color: #6a0dad;
+  color: white;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+a {
+  color: #6a0dad;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
